@@ -1,22 +1,56 @@
-bicycle-sales-analysis
+Bicycle Sales Analysis
 
-Data profiling and analysis of bicycle sales data using Excel / Google Sheets.
+Exploratory analysis of bicycle sales data with a focus on data cleaning, aggregation, and dashboard creation using Excel and Google Sheets.
 
-The project focuses on:
-- cleaning and structuring raw transactional data
-- combining multiple tables into a single analytical dataset
-- building a sales dashboard for exploratory analysis
+Project Goal
 
-Project structure:
-- raw_data/ — original datasets before cleaning
-- clean_data/ — cleaned and structured Excel file with 4 related tables
-- dashboard/ — exported PDF dashboard built in Google Sheets
+The goal of this project is to demonstrate practical skills in:
+  data cleaning and preparation
+  working with multiple related tables
+  building analytical summaries and dashboards
+  using Excel and Google Sheets for business-oriented analysis
 
-The dashboard was originally created in Google Sheets and exported as PDF for reference.
+The project focuses on understanding sales performance and customer-related patterns rather than predictive modeling.
 
-Data source:
+Data
+
+The dataset consists of several related tables:
+  Transactions — individual sales transactions
+  Customers — customer profile information
+  Address — geographical data linked to customers
+  NewCustomerList — information about newly acquired customers
+
+Source (open dataset):
 https://mega.nz/folder/B5ZwzSpJ#RePKaGTUzUEQS1ztS-l-Og
 
-Tools:
-- Google Sheets
-- Excel
+bicycle-sales-analysis/
+│
+├── raw_data/        # Original datasets before cleaning
+├── clean_data/      # Cleaned and consolidated Excel file
+├── dashboard/       # Final dashboard exported as PDF
+└── README.md
+
+
+Methodology:
+
+  Initial data profiling and validation
+  Cleaning and standardization of fields
+  Combining multiple tables into a unified dataset
+  Use of Excel formulas, pivot tables, slicers, and charts
+  Creation of a summary dashboard for business insights
+
+
+Output
+
+  Cleaned dataset suitable for analysis
+  Analytical summaries using pivot tables
+  A visual dashboard presenting key sales metrics
+
+
+Tools Used
+
+  Microsoft Excel
+  Google Sheets
+
+
+
