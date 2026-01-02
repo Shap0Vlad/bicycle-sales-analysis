@@ -4,7 +4,7 @@ Exploratory analysis of bicycle sales data with a focus on data cleaning, aggreg
 
 The goal of this project is to demonstrate practical skills in:
 
--data cleaning and preparation
+- data cleaning and preparation
 -working with multiple related tables
 -building analytical summaries and dashboards
 -using Excel and Google Sheets for business-oriented analysis
